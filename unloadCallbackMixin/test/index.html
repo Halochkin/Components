@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    unload-element {
+        height: 100px;
+        width: 200px;
+        background-color: green;
+        display: block;
+    }
+</style>
+<unload-element></unload-element>
+
+
+<script type="module">
+  import {UnloadCallbackMixin} from "https://rawgit.com/Halochkin/Components/master/unloadCallbackMixin/src/unloadCallbackMixin.js"
+
+  class unloadElement extends UnloadCallbackMixin(HTMLElement) {
+    constructor() {
+      super();
+    }
+
+    unloadCallback() {
+      alert("Test alert");
+      super.disconnectedCallback();
+    }
+  }
+
+  customElements.define("unload-element", unloadElement);
+</script>
+
+<body>
+</body>
+</html>
