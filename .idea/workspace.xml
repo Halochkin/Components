@@ -4,7 +4,6 @@
     <list default="true" id="bcc14d5f-8fe6-404a-9358-509317f2acc8" name="Default" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Components" afterPath="$PROJECT_DIR$/Components" />
-      <change beforePath="$PROJECT_DIR$/Components/EventComposition/Events/TouchHover/test/TouchHover.html" afterPath="$PROJECT_DIR$/Components/EventComposition/Events/TouchHover/test/TouchHover.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="TouchHover.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Components/EventComposition/Events/TouchHover/test/TouchHover.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,6 +43,11 @@
     <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="max" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -193,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557498952539</updated>
       <workItem from="1557498954279" duration="438000" />
-      <workItem from="1557499400965" duration="489000" />
+      <workItem from="1557499400965" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1557499464376</created>
@@ -202,11 +206,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557499464376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1557499898751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557499898751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="927000" />
+    <option name="totallyTimeSpent" value="1145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -273,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Components/EventComposition/Events/TouchHover/test/TouchHover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
